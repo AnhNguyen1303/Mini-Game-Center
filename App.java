@@ -4,17 +4,17 @@ public class App {
         System.out.println("Hello user");
         Scanner gameinput = new Scanner (System.in);
        
-        System.out.println(" What game do you want?");
-        System.out.println("Hangman");
-        System.out.println ("Wordle");
+        System.out.println(" What game do you want to play?");
+        System.out.println("Rocks,paper,scissor");
+        System.out.println ("Number Guessing");
         System.out.println ("Choose 1,2,3");
         String choice = gameinput.nextLine();
 
         if (choice.equals ("1")) { 
-             Hangman.play();
+             RPS.play();
              }
        else if (choice.equals ("2")){
-             Wordle.play(); 
+             number_guessing.Hello(); 
              }
         else if (choice.equals("3")){
             System.out.println ("GoodBye");
