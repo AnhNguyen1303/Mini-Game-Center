@@ -14,7 +14,7 @@ public class App {
              RPS.play();
              }
        else if (choice.equals ("2")){
-             number_guessing.Hello(); 
+         number_guessing.play(gameinput);
              }
         else if (choice.equals("3")){
             System.out.println ("GoodBye");
