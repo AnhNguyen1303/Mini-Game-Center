@@ -11,7 +11,7 @@ public class App {
         String choice = gameinput.nextLine();
 
         if (choice.equals ("1")) { 
-             RPS.play();
+             RPS.play(gameinput);
              }
        else if (choice.equals ("2")){
          number_guessing.play(gameinput);
