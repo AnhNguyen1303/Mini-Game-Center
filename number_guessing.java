@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class number_guessing {
-    private static final int MAX_GUESSES = 10;
+    private static  int MAX_GUESSES = 10;
     public static void play(Scanner input) {
         int secretNumber = (int) (Math.random() * 100) + 1;
         int attempts = 0;

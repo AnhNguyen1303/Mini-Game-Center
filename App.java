@@ -5,8 +5,9 @@ public class App {
         Scanner gameinput = new Scanner (System.in);
        
         System.out.println(" What game do you want to play?");
-        System.out.println("Rocks,paper,scissor");
-        System.out.println ("Number Guessing");
+        System.out.println("1)Rocks,paper,scissor");
+        System.out.println ("2)Number Guessing");
+        System.out.println ("3) Quit Game");
         System.out.println ("Choose 1,2,3");
         String choice = gameinput.nextLine();
 
